@@ -12,9 +12,8 @@
   "description": "Library for printing to ESC/POS compatible printers",
   "homepage": "https://github.com/haavardlian/escpos",
   "main": "dist/index.js",
-  "typings": "src/",
+  "typings": "dist/",
   "files": [
-    "src/",
     "dist/"
   ],
   "license": "MIT",

@@ -14,7 +14,8 @@
   "main": "dist/index.js",
   "typings": "src/",
   "files": [
-    "src/"
+    "src/",
+    "dist/"
   ],
   "license": "MIT",
   "repository": {

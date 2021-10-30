@@ -49,6 +49,7 @@
   },
   "scripts": {
     "compile": "tsc",
+    "prepare": "npm run pack",
     "lint": "tslint -c tslint.json -p tsconfig.json",
     "pack": "npm run compile && node scripts/createPackageDir.js",
     "preversion": "node scripts/isMaster.js && npm run lint",

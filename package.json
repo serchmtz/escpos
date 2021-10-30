@@ -54,6 +54,7 @@
     "pack": "npm run compile && node scripts/createPackageDir.js",
     "preversion": "node scripts/isMaster.js && npm run lint",
     "version": "npm run pack",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "postinstall": "npm run pack"
   }
 }
